@@ -1,0 +1,90 @@
+.pagetitle{
+    text-align: center;
+    font-weight: bold;
+}
+
+body{
+    background-image: url("https://images.pexels.com/photos/457882/pexels-photo-457882.jpeg?cs=srgb&dl=pexels-asadphoto-457882.jpg&fm=jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+.textcontainer {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px; 
+    border-radius: 10px;
+    margin: 20px auto; 
+    width: fit-content; 
+    display: inline-block; 
+    text-align: center; 
+}
+
+.weather{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px auto;
+    width: 100%;
+    font-weight: bold;
+}
+
+.error{
+    text-align: center;
+    margin: 20px auto;
+    width: 100%;
+    font-size: larger;
+}
+
+.textlabel{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.textbox{
+    border: 2px solid #ddd; 
+    border-radius: 10px; 
+    width: 600px; 
+    padding: 10px; 
+    font-size: 16px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: all 0.3s ease; 
+    background-color: whitesmoke; 
+
+}
+
+.textbox:focus {
+    border-color: #175493; 
+    outline: none; 
+    box-shadow: 0 0 8px rgba(23, 84, 147, 0.5); 
+}
+
+
+
+.button{
+    background-color: #175493; 
+    color: whitesmoke; 
+    width: 150px; 
+    height: 40px; 
+    border: none; 
+    border-radius: 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.button:hover {
+    background-color: orange; 
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); 
+    transform: scale(1.05); 
+}
+
+.button:active {
+    background-color: #ff9800; 
+    box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.2); 
+    transform: scale(0.98); 
+}
+
