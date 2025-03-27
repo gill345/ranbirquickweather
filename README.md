@@ -2,8 +2,6 @@
 
 ![weather](https://github.com/user-attachments/assets/1aebb985-60fc-4806-baee-7d56927b7ae9)
 
-# Ranbir Quick Weather
-
 ## Overview
 Ranbir Quick Weather is a simple weather application built using PHP, HTML, CSS, and JavaScript. It fetches and displays real time weather information based on user provided city names, leveraging the OpenWeatherMap API. Your weather data is saved for up to a week using a cookie.
 
